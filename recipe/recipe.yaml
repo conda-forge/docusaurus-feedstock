@@ -23,7 +23,7 @@ requirements:
 
 tests:
   - script:
-      - "docusaurus --help 2>&1 | grep -q \"Build website.\""
+      - docusaurus 2>&1 | grep -q "No config file found in site dir"
 
 about:
   license: MIT
