@@ -4,7 +4,7 @@
 
 [project]
 name = "docusaurus-feedstock"
-version = "3.44.9"
+version = "3.45.2"
 description = "Pixi configuration for conda-forge/docusaurus-feedstock"
 authors = ["@conda-forge/docusaurus"]
 channels = ["conda-forge"]
