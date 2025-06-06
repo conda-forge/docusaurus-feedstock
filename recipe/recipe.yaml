@@ -1,5 +1,5 @@
 context:
-  version: "3.8.0"
+  version: "3.8.1"
 
 package:
   name: docusaurus
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@docusaurus/core/-/core-${{ version }}.tgz
-  sha256: 1536239be7a725b510434711dfdfdf845a481b0f5cc7824be4d9e511020f6c03
+  sha256: d0deafbf2901a5aa35b447ba7f7212c80891529046ea49bc1e44039d02d647e2
 
 build:
   number: 0

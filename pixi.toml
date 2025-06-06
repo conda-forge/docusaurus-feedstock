@@ -7,7 +7,7 @@
 
 [project]
 name = "docusaurus-feedstock"
-version = "3.48.1"  # conda-smithy version used to generate this file
+version = "3.50.0"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/docusaurus-feedstock"
 authors = ["@conda-forge/docusaurus"]
 channels = ["conda-forge"]
