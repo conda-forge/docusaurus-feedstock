@@ -11,7 +11,7 @@ npm install -ddd \
     ${SRC_DIR}/${PKG_NAME}-core-${PKG_VERSION}.tgz
 
 # Create license report for dependencies
-pnpm install
+pnpm install --dangerously-allow-all-builds
 pnpm-licenses generate-disclaimer --prod --output-file=${SRC_DIR}/third-party-licenses.txt
 
 mkdir -p ${PREFIX}/bin
